@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d30a31f99f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./main.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <title>Prueba</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <img src="./Imagenes/Logo Restaurante Hamburguesería Retro Beige.png" alt="Logo" width="250">
+        </div>
+    </header>
+
+
+    <div class="top-contenedor">
+    <section class="seccion1">
+    <div>
+        <h1>Catalogo de Alimentos</h1>
+    </div>
+    <div class="contenedor">
+        <div class="caja" onclick="read('Pizzas')">
+            <img src="./Imagenes/pizza.png" alt="Pizzas" width="80">
+            <p>Pizzas</p>
+        </div>
+        <div class="caja" onclick="read('Hamburguesas')">
+            <img src="./Imagenes/Hamburguesas.png" alt="Hamburguesas" width="80">
+            <p>Hamburgesas</p>
+        </div>
+        <div class="caja" onclick="read('Tacos')">
+            <img src="./Imagenes/tacos.png" alt="Tacos" width="80">
+            <p>Tacos</p>
+        </div>
+        <div class="caja" onclick="read('Bebidas')">
+            <img src="./Imagenes/Bebidas.png" alt="Bebidas" width="80">
+            <p>Bebidas</p>
+        </div>
+    </div>
+
+<div class="Tabla">
+    <table id="tablaDatos">
+    <tr>
+        <th>Categoria</th>
+        <th>Nombre del producto</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Ingredientes</th>
+        <th onclick="">Editar</th>
+        <th onclick="">Eliminar</th>
+    </tr>
+    <tbody id="listaRegistros">
+    
+</tbody>
+    
+    </table>
+</div>
+
+    </section>
+
+    <section class="seccion2">
+    <div id="formulario">
+        <div>
+        <h1 id="title">Agregar platillo</h1>
+        </div>
+        <form id="form" method="post">
+         <div class="input-field">
+            <label for="categoria">*Categoria:</label>
+            <select name="categoria" id="categoria">
+              <option selected disabled> Selecciona una categoria</option>
+              <option value="Tacos">Tacos</option>
+              <option value="Hamburguesas">Hamburguesas</option>
+              <option value="Pizzas">Pizzas</option>
+              <option value="Bebidas">Bebidas</option>
+            </select>
+        </div>
+        <div class="input-field">
+            <label for="nombre">*Nombre del producto:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="input-field">
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" optional></textarea>
+        </div>
+        <div class="input-field">
+            <label for="precio">*Precio:</label>
+            <input type="number" step="0.01" id="precio" required>
+        </div>
+        <div class="input-field">
+            <label for="ingredientes">*Ingredientes:</label>
+            <textarea id="ingredientes" name="ingredientes" required></textarea>
+        </div>
+        <div>
+            <input type="button" onclick="validar()" value="Agregar">
+        </div>
+    </div>
+          </form>
+    </section>
+</div>
+        
+        
+        
+
+    
+</body>
+</html>

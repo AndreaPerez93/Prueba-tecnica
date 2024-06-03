@@ -1,0 +1,159 @@
+*.{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #cee1d8;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+     
+}
+
+header img{
+    position: relative;
+    bottom: 48%;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color:#f6eee0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-contenedor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion1 {
+    width: 60%;
+    background-color: #f0f0d8;
+    float: left;
+    border-radius: 7px;
+    padding: 15px;
+    min-height: 550px;
+}
+.seccion1 h1 {
+    color: #f04842;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla {
+    border: solid 1px rgba( 255, 255, 255, 0.2);
+}
+
+table {
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+th {
+    background-color:#fda664;
+    padding: 10px 5px;
+    width: 400px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0%;
+    
+
+}
+
+td {
+    padding: 10px;
+    border-bottom: solid 2px rgba( 253 166 100);
+}
+
+tr:hover {
+    background-color: #cee1d8;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.caja{
+    background-color:#f0f0d8;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: #fda664;
+
+}
+
+.caja p{
+    color: #f04842;
+    margin-top: -10%;
+}
+
+.caja:hover{
+    filter: opacity(.6);
+}
+
+
+
+
+.seccion2{
+    width: 30%;
+    background-color: #f0f0d8;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 7px;
+    margin-left: 10px;
+    min-height: 550px;
+
+}
+
+
+#formulario{
+    width: 100%;
+    max-width: 300px;
+    padding: 50px 60px 90px;
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.input-field{
+    color: #f04842;
+}
+
+#formulario h1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #f04842;
+}
+
+.input-field{
+    margin: 10px;
+    align-items: center;
+    margin-left: 10px;
+}
