@@ -4,17 +4,17 @@ import { getFirestore, doc, getDoc, getDocs, collection, setDoc, addDoc, onSnaps
 
 const firebaseConfig = {
 
-    apiKey: "AIzaSyB-6EDx_3wYhVL0Qlu0zfIRNCHmOkn2RRE",
+    apiKey: "",
   
-    authDomain: "prueba1-90ba1.firebaseapp.com",
+    authDomain: "",
   
-    projectId: "prueba1-90ba1",
+    projectId: "",
   
-    storageBucket: "prueba1-90ba1.appspot.com",
+    storageBucket: "",
   
-    messagingSenderId: "547664203299",
+    messagingSenderId: "",
   
-    appId: "1:547664203299:web:adbf4be7163cdf06db2b96"
+    appId: "6"
   
   };
 
